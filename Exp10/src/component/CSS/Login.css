@@ -1,0 +1,8 @@
+/* Login.css */
+.login-container {
+    background-image: url('./Background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
