@@ -1,0 +1,12 @@
+.rubiks-cube-horizontal {
+    display: flex;
+    flex-wrap: nowrap; /* Prevent cards from wrapping to the next line */
+    overflow-x: auto; /* Add horizontal scrolling if necessary */
+}
+
+.rubiks-cube-card {
+    width: 25%; /* Adjust the card width as needed */
+    border: 1px solid #ccc; /* Add borders or styling as needed */
+    margin-right: 20px; /* Add margin between cards */
+    padding: 10px; /* Add padding within each card */
+}

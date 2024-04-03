@@ -1,0 +1,6 @@
+git init
+git config --global user.email "sumitsawant1029@gmail.com"
+git config --global user.name "sumitsawant1029"
+git add .
+git commit -m "Hello"
+git push origin main

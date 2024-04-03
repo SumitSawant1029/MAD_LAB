@@ -1,0 +1,42 @@
+/* MyComponent.css */
+.myslides {
+    display: none;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    color: white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .sc-eDLKEg.hyiNCt {
+    width: 100%;
+    display: flex; /* Make the child images align horizontally */
+    overflow: hidden; /* Hide any overflow beyond the screen width */
+  }
+  
+  .sc-eDLKEg.hyiNCt img {
+    width: 100%;
+    height: auto; /* Maintain the image aspect ratio */
+  }
+  
+  
+  /* Add more CSS styles for your component as needed */
+  
